@@ -1,0 +1,234 @@
+/* ----------------------------------------
+--------------------Comman Code------------
+------------------------------------------- */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", Sans-serif;
+    background-color: #fbf9f7;
+}
+
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+/* ----------------------------------------
+--------------------Comman Code------------
+------------------------------------------- */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar ul{
+    list-style-type: none;
+}
+.navbar ul li{
+    display: inline-block;
+    padding: 20px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: black;
+}
+.background-21{
+    background-image: url(images/background-21-1920x900.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    position: relative;
+    z-index: 1;
+}
+.background-21::before{
+position: absolute;
+z-index: -1;
+content: "";
+top: 0;
+bottom: 0;
+right: 0;
+left: 0;
+background-color: gray;
+opacity: 0.8;
+}
+.bacckground-21-content{
+    background-color: transparent;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.bacckground-21-content p{
+    font-size: 25px;
+}
+.bacckground-21-content h1{
+    font-size: 50px;
+}
+.tour-text-content p{
+        max-width: 840px;
+    font-size: 15px;
+}
+.tour-text-content button{
+    padding: 10px 34px;
+    border-radius: 20px;
+    background-color: purple;
+    transition: all 0.5s;
+}
+.tour-text-content button a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.tour-text-content button:hover{
+    background-color: orangered;
+}
+.tour-text-content p{
+    padding-top: 50px;
+    line-height: 30px;
+    font-size: 20px;
+}
+.gray-team{
+    background-color: #ebeaea;
+    height: auto;
+    margin-top: 50px;
+    padding-bottom: 100px;
+}
+.gray-team-content{
+    text-align: center;
+    padding-top: 50px;
+}
+.card{
+    text-align: center;
+}
+.card img{
+    border-radius: 50%;
+}
+.card p{
+    color: gray;
+    letter-spacing: 2px;
+}
+.One-i{
+    padding-top: 50px;
+}
+.card button{
+    padding: 10px 34px;
+    border-radius: 20px;
+    background-color: purple;
+    transition: all 0.5s;
+    margin-top: 50px;
+}
+.card button a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.card button:hover{
+    background-color: orangered;
+}
+footer{
+    background-color: black;
+}
+.tc p{
+    font-size: 11px;
+}
+@media screen and (max-width:991px) {
+    #presta{
+        width: 100%;
+    }
+
+.tour-text-content p {
+    padding-top: 5px;
+    line-height: 30px;
+    font-size: 12px;
+}
+}
+@media screen and (max-width:768px) {
+    .navbar ul li {
+        display: inline-block;
+        padding: 4px;
+    }
+
+    .tour-text-content button a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 12px;
+        text-transform: uppercase;
+    }
+    .card button a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 12px;
+        text-transform: uppercase;
+    }
+
+.card button {
+    padding: 9px 13px;
+    border-radius: 20px;
+    background-color: purple;
+    transition: all 0.5s;
+    margin-top: 5px;
+}
+}
